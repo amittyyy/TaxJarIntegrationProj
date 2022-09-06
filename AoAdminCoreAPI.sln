@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AWPurchaseAPI", "AWPurchaseAPI", "{D54B007A-CA4C-45E6-BEBB-28FD63020A83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWPurchase.Business", "AWPurchase.Business\AWPurchase.Business.csproj", "{4B4D84F1-5162-4EA0-B9CE-BA366D8844AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWPurchase.DataAccess", "AWPurchase.DataAccess\AWPurchase.DataAccess.csproj", "{AB730A92-1BA4-4B14-B445-A54EE37B00E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWPurchaseCore5API", "AWPurchaseCore5API\AWPurchaseCore5API.csproj", "{10B304F6-6B40-4431-BFC7-793FC6D9AB13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWPurchaseNUnitTest", "AWPurchaseNUnitTest\AWPurchaseNUnitTest.csproj", "{B7043CC5-E9EF-43F0-838E-79CB25ADAE70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AWAdminAPI", "AWAdminAPI", "{E3E58313-33E9-43C6-B1D7-57CD6DD7FA5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWAdminCore5API", "AWAdminCore5API\AWAdminCore5API.csproj", "{0709490D-EE69-49EC-B5E5-5F222F734FAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWAdmin.Business", "AWAdmin.Business\AWAdmin.Business.csproj", "{F0DBE55B-205F-494F-8C05-53C2F1037F40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWAdmin.DataAccess", "AWAdmin.DataAccess\AWAdmin.DataAccess.csproj", "{212C6145-302F-45E2-A2AF-61ABF8EE0FF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AWGateway", "AWGateway", "{02CD9F42-F122-4E8C-BC58-56FF329D0F70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWAoAdmin_GateWay", "AWAoAdmin_GateWay\AWAoAdmin_GateWay.csproj", "{B7FBD331-1097-43C7-A15C-727B905E2FCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B4D84F1-5162-4EA0-B9CE-BA366D8844AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4D84F1-5162-4EA0-B9CE-BA366D8844AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4D84F1-5162-4EA0-B9CE-BA366D8844AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4D84F1-5162-4EA0-B9CE-BA366D8844AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB730A92-1BA4-4B14-B445-A54EE37B00E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB730A92-1BA4-4B14-B445-A54EE37B00E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB730A92-1BA4-4B14-B445-A54EE37B00E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB730A92-1BA4-4B14-B445-A54EE37B00E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B304F6-6B40-4431-BFC7-793FC6D9AB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B304F6-6B40-4431-BFC7-793FC6D9AB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B304F6-6B40-4431-BFC7-793FC6D9AB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B304F6-6B40-4431-BFC7-793FC6D9AB13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7043CC5-E9EF-43F0-838E-79CB25ADAE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7043CC5-E9EF-43F0-838E-79CB25ADAE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7043CC5-E9EF-43F0-838E-79CB25ADAE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7043CC5-E9EF-43F0-838E-79CB25ADAE70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0709490D-EE69-49EC-B5E5-5F222F734FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0709490D-EE69-49EC-B5E5-5F222F734FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0709490D-EE69-49EC-B5E5-5F222F734FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0709490D-EE69-49EC-B5E5-5F222F734FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0DBE55B-205F-494F-8C05-53C2F1037F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0DBE55B-205F-494F-8C05-53C2F1037F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0DBE55B-205F-494F-8C05-53C2F1037F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0DBE55B-205F-494F-8C05-53C2F1037F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212C6145-302F-45E2-A2AF-61ABF8EE0FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212C6145-302F-45E2-A2AF-61ABF8EE0FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212C6145-302F-45E2-A2AF-61ABF8EE0FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212C6145-302F-45E2-A2AF-61ABF8EE0FF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7FBD331-1097-43C7-A15C-727B905E2FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7FBD331-1097-43C7-A15C-727B905E2FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7FBD331-1097-43C7-A15C-727B905E2FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7FBD331-1097-43C7-A15C-727B905E2FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B4D84F1-5162-4EA0-B9CE-BA366D8844AD} = {D54B007A-CA4C-45E6-BEBB-28FD63020A83}
+		{AB730A92-1BA4-4B14-B445-A54EE37B00E6} = {D54B007A-CA4C-45E6-BEBB-28FD63020A83}
+		{10B304F6-6B40-4431-BFC7-793FC6D9AB13} = {D54B007A-CA4C-45E6-BEBB-28FD63020A83}
+		{B7043CC5-E9EF-43F0-838E-79CB25ADAE70} = {D54B007A-CA4C-45E6-BEBB-28FD63020A83}
+		{0709490D-EE69-49EC-B5E5-5F222F734FAB} = {E3E58313-33E9-43C6-B1D7-57CD6DD7FA5D}
+		{F0DBE55B-205F-494F-8C05-53C2F1037F40} = {E3E58313-33E9-43C6-B1D7-57CD6DD7FA5D}
+		{212C6145-302F-45E2-A2AF-61ABF8EE0FF5} = {E3E58313-33E9-43C6-B1D7-57CD6DD7FA5D}
+		{B7FBD331-1097-43C7-A15C-727B905E2FCC} = {02CD9F42-F122-4E8C-BC58-56FF329D0F70}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80976810-CDC8-4AAB-A840-E701C18AF057}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.accountantsworld.com/tfs/aw-collection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AWPurchase.Business\\AWPurchase.Business.csproj
+		SccProjectTopLevelParentUniqueName1 = AoAdminCoreAPI.sln
+		SccProjectName1 = AWPurchase.Business
+		SccLocalPath1 = AWPurchase.Business
+		SccProjectUniqueName2 = AWPurchase.DataAccess\\AWPurchase.DataAccess.csproj
+		SccProjectTopLevelParentUniqueName2 = AoAdminCoreAPI.sln
+		SccProjectName2 = AWPurchase.DataAccess
+		SccLocalPath2 = AWPurchase.DataAccess
+		SccProjectUniqueName3 = AWPurchaseCore5API\\AWPurchaseCore5API.csproj
+		SccProjectTopLevelParentUniqueName3 = AoAdminCoreAPI.sln
+		SccProjectName3 = AWPurchaseCore5API
+		SccLocalPath3 = AWPurchaseCore5API
+		SccProjectUniqueName4 = AWPurchaseNUnitTest\\AWPurchaseNUnitTest.csproj
+		SccProjectTopLevelParentUniqueName4 = AoAdminCoreAPI.sln
+		SccProjectName4 = AWPurchaseNUnitTest
+		SccLocalPath4 = AWPurchaseNUnitTest
+		SccProjectUniqueName5 = AWAdminCore5API\\AWAdminCore5API.csproj
+		SccProjectTopLevelParentUniqueName5 = AoAdminCoreAPI.sln
+		SccProjectName5 = AWAdminCore5API
+		SccLocalPath5 = AWAdminCore5API
+		SccProjectUniqueName6 = AWAdmin.Business\\AWAdmin.Business.csproj
+		SccProjectTopLevelParentUniqueName6 = AoAdminCoreAPI.sln
+		SccProjectName6 = AWAdmin.Business
+		SccLocalPath6 = AWAdmin.Business
+		SccProjectUniqueName7 = AWAdmin.DataAccess\\AWAdmin.DataAccess.csproj
+		SccProjectTopLevelParentUniqueName7 = AoAdminCoreAPI.sln
+		SccProjectName7 = AWAdmin.DataAccess
+		SccLocalPath7 = AWAdmin.DataAccess
+		SccProjectUniqueName8 = AWAoAdmin_GateWay\\AWAoAdmin_GateWay.csproj
+		SccProjectTopLevelParentUniqueName8 = AoAdminCoreAPI.sln
+		SccProjectName8 = AWAoAdmin_GateWay
+		SccLocalPath8 = AWAoAdmin_GateWay
+	EndGlobalSection
+EndGlobal
