@@ -1,0 +1,129 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/status/check",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "dev-awpurchaseapi.accountantsoffice.com",
+          "Port": "443"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/status/check",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+    {
+      "DownstreamPathTemplate": "/api/salesTaxRate/getSalesRatebyLocationSelfService",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "dev-awpurchaseapi.accountantsoffice.com",
+          "Port": "443"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/salesTaxRate/getSalesRatebyLocationSelfService",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+    {
+      "DownstreamPathTemplate": "/api/salesTaxRate/getSalesTaxbyBulkZipsSelfService",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "dev-awpurchaseapi.accountantsoffice.com",
+          "Port": "443"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/salesTaxRate/getSalesTaxbyBulkZipsSelfService",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+    {
+      "DownstreamPathTemplate": "/api/salesTaxRate/createOrderSelfService",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "dev-awpurchaseapi.accountantsoffice.com",
+          "Port": "443"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/salesTaxRate/createOrderSelfService",
+      "UpstreamHttpMethod": [ "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+    {
+      "DownstreamPathTemplate": "/api/salesTaxRate/DeleteOrderSelfService",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "dev-awpurchaseapi.accountantsoffice.com",
+          "Port": "443"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/salesTaxRate/DeleteOrderSelfService",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+    {
+      "DownstreamPathTemplate": "/api/salesTaxRate/RefundOrderSelfService",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "dev-awpurchaseapi.accountantsoffice.com",
+          "Port": "443"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/salesTaxRate/RefundOrderSelfService",
+      "UpstreamHttpMethod": [ "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+    {
+      "DownstreamPathTemplate": "/api/salesTaxRate/DeleteRefundSelfService",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "dev-awpurchaseapi.accountantsoffice.com",
+          "Port": "443"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/salesTaxRate/DeleteRefundSelfService",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    } 
+  ],
+
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44393"
+  }
+
+
+}
